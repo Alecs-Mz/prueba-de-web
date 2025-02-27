@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    color: #ff0000;
+}
+button {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    font-size: 16px; /* Tamaño del texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Muestra el cursor como una mano cuando el ratón pasa sobre el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Efecto de transición cuando el color cambia */
+}
+
+button:hover {
+    background-color: #45a049; /* Color de fondo cuando el ratón pasa sobre el botón */
+}
