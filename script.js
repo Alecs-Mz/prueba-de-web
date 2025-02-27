@@ -9,4 +9,8 @@ boton1.addEventListener("click", function() {
 // Redirigir al segundo enlace (YouTube) cuando el segundo botón sea clickeado
 boton2.addEventListener("click", function() {
     window.open("https://youtu.be/Y8-n6nNoFKc?si=1-O3TjmWTwVGhXoD","_Blank");
+
+    // Redirigir al segundo enlace (YouTube) cuando el segundo botón sea clickeado
+boton3.addEventListener("click", function() {
+    window.open("https://www.instagram.com/_alex_sassone_/","_Blank");
 });
