@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    color: #333;
+    color: #d502ff;
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
 }
 button {
     background-color: #4CAF50; /* Color de fondo */
-    color: white; /* Color del texto */
+    color: rgb(90, 90, 90); /* Color del texto */
     padding: 15px 32px; /* Espaciado interno */
     text-align: center; /* Centra el texto */
     font-size: 16px; /* Tamaño del texto */
