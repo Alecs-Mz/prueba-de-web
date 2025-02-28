@@ -6,7 +6,7 @@
 /* Estilo general */
 body {
     font-family: Arial, sans-serif;
-    background-color: #87cfa5; /* Color verde césped */
+    background-color: #87cfa5;
     color: #222;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Título principal (Mis Redes) estilo Minecraft */
+/* Título estilo Minecraft */
 h1 {
     font-family: 'Minecraft', Arial, sans-serif;
     font-size: 48px;
@@ -36,7 +36,7 @@ h1 {
     margin: 0;
 }
 
-/* Subtítulo (sigan :) ) */
+/* Subtítulo */
 .subtitle {
     font-family: 'Minecraft', Arial, sans-serif;
     font-size: 16px;
@@ -50,7 +50,7 @@ h1 {
     margin: 5px 0 20px;
 }
 
-/* Contenedor para los botones */
+/* Botones estilo Minecraft */
 .button-container {
     display: flex;
     flex-direction: column;
@@ -58,7 +58,6 @@ h1 {
     align-items: center;
 }
 
-/* Botones estilo Minecraft */
 button {
     background-color: #8b8b8b;
     color: white;
