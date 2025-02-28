@@ -1,54 +1,81 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('https://fonts.cdnfonts.com/s/20650/MinecraftRegular-Bmg3.otf') format('opentype');
+}
+
+/* Estilo general */
 body {
     font-family: Arial, sans-serif;
-    background-color: #87cfa5; /* Color estilo Minecraft (verde pasto) */
-    color: #222; /* Color del texto general */
+    background-color: #87cfa5; /* Color verde césped */
+    color: #222;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra el contenido */
+    align-items: center;
     justify-content: center;
     min-height: 100vh;
     margin: 0;
 }
 
-h1 {
-    color: #ff0000;
-    font-size: 28px;
-    text-shadow: 2px 2px 4px #000; /* Sombra estilo Minecraft */
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 16px;
-    color: #333;
+/* Contenedor del título y subtítulo */
+.title-container {
+    text-align: center;
     margin-bottom: 20px;
 }
 
-/* Contenedor para alinear los botones en columna */
+/* Título principal (Mis Redes) estilo Minecraft */
+h1 {
+    font-family: 'Minecraft', Arial, sans-serif;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 
+        4px 4px 0px #000, 
+        -1px -1px 0px #000,  
+        1px -1px 0px #000,  
+        -1px 1px 0px #000,  
+        1px 1px 0px #000;
+    margin: 0;
+}
+
+/* Subtítulo (sigan :) ) */
+.subtitle {
+    font-family: 'Minecraft', Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: 
+        2px 2px 0px #000, 
+        -1px -1px 0px #000,  
+        1px -1px 0px #000,  
+        -1px 1px 0px #000,  
+        1px 1px 0px #000;
+    margin: 5px 0 20px;
+}
+
+/* Contenedor para los botones */
 .button-container {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Espacio entre botones */
+    gap: 10px;
     align-items: center;
 }
 
-/* Estilo de botones tipo Minecraft */
+/* Botones estilo Minecraft */
 button {
-    background-color: #8b8b8b; /* Gris clásico */
+    background-color: #8b8b8b;
     color: white;
     font-family: 'Minecraft', Arial, sans-serif;
     font-size: 16px;
     padding: 15px 30px;
-    border: 4px solid black; /* Borde grueso estilo pixel */
+    border: 4px solid black;
     cursor: pointer;
     text-transform: uppercase;
     box-shadow: 3px 3px 0px #3f3f3f;
     transition: all 0.2s ease;
-    width: 250px; /* Ancho fijo para todos */
+    width: 250px;
     text-align: center;
 }
 
 button:hover {
-    background-color: #6b6b6b; /* Un gris más oscuro */
+    background-color: #6b6b6b;
     box-shadow: 2px 2px 0px #000;
-    transform: translate(1px, 1px); /* Leve movimiento */
+    transform: translate(1px, 1px);
 }
